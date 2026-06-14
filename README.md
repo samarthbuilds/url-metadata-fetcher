@@ -1,38 +1,29 @@
 URL Metadata Fetcher
 
-A backend application that extracts and returns metadata from webpages using a provided URL.
+A Node.js application that extracts and analyzes webpage metadata from URLs.
 
-The project demonstrates API design, asynchronous JavaScript, error handling, URL validation, and clean backend architecture using a controller-service pattern.
-
-⸻
+The application fetches important metadata such as titles, descriptions, favicons, and meta tags while demonstrating backend architecture, asynchronous programming, and API handling.
 
 🚀 Features
 
-* Extract webpage title
+* Fetch webpage title
 * Extract meta description
-* Extract favicon URL
+* Retrieve favicon URL
 * Extract metadata tags
 * Validate URLs before processing
 * Handle invalid URLs gracefully
-* Structured backend architecture
-* Async data fetching and processing
+* Handle API and network errors
+* Clean controller-service architecture
 
 ⸻
 
-🛠️ Tech Stack
+🛠️ Technologies Used
 
-Backend
-
-* Node.js
 * JavaScript
+* Node.js
 * Express.js
-
-Concepts
-
-* REST APIs
 * Async/Await
-* Error Handling
-* URL Validation
+* REST APIs
 * JSON Processing
 
 ⸻
@@ -40,7 +31,6 @@ Concepts
 📂 Project Structure
 
 url-metadata-fetcher/
-│
 ├── src/
 │   ├── routes/
 │   │   └── metadataRoutes.js
@@ -60,35 +50,14 @@ url-metadata-fetcher/
 ├── package.json
 └── README.md
 
-⸻
+📌 How It Works
 
-⚙️ How It Works
-
-1. Client sends a URL.
-2. URL validation is performed.
-3. Metadata service fetches webpage content.
-4. Metadata is extracted.
-5. Structured JSON response is returned.
-
-⸻
-
-📦 Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/url-metadata-fetcher.git
-
-Move into the project directory:
-
-cd url-metadata-fetcher
-
-Install dependencies:
-
-npm install
-
-Start the server:
-
-npm start
+1. User provides a URL.
+2. The application validates the URL.
+3. Webpage content is fetched.
+4. Metadata is extracted from the webpage.
+5. The metadata is returned in a structured format.
+6. Errors are handled if the URL is invalid or inaccessible.
 
 ⸻
 
@@ -96,13 +65,13 @@ npm start
 
 This project was built to practice:
 
-* Backend architecture
-* API development
+* API consumption
 * Async JavaScript
 * Error handling
-* Data extraction
-* Project organization
-* Clean code principles
+* Backend architecture
+* URL validation
+* Working with JSON data
+* Clean code organization
 
 ⸻
 
@@ -121,4 +90,4 @@ This project was built to practice:
 
 Samarth
 
-Backend Engineering Journey — Week 2 project
+Backend Engineering Journey: Week 2 Project
