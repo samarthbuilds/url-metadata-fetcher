@@ -28,27 +28,24 @@ The application fetches important metadata such as titles, descriptions, favicon
 
 ⸻
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 url-metadata-fetcher/
 ├── src/
 │   ├── routes/
 │   │   └── metadataRoutes.js
-│   │
 │   ├── controllers/
 │   │   └── metadataController.js
-│   │
 │   ├── services/
 │   │   └── metadataService.js
-│   │
 │   ├── utils/
 │   │   └── validateUrl.js
-│   │
 │   └── app.js
-│
 ├── server.js
 ├── package.json
 └── README.md
+```
 
 📌 How It Works
 
