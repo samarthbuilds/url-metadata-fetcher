@@ -33,10 +33,10 @@ The application fetches important metadata such as titles, descriptions, favicon
 ```text
 url-metadata-fetcher/
 ├── src/
-│   ├── routes/
-│   │   └── metadataRoutes.js
 │   ├── controllers/
 │   │   └── metadataController.js
+│   ├── routes/
+│   │   └── metadataRoutes.js
 │   ├── services/
 │   │   └── metadataService.js
 │   ├── utils/
@@ -44,9 +44,9 @@ url-metadata-fetcher/
 │   └── app.js
 ├── server.js
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
-
 📌 How It Works
 
 1. User provides a URL.
